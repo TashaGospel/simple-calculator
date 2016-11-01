@@ -1,0 +1,1434 @@
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.766 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/simple_calculator/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.614 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.449 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:4  column:1  ----[0m
+
+  [1mWrong number of args (0) passed to: core/defn--43044[0m
+
+  [36m2[0m  [36m  (:require [reagent.core :refer [atom]]))[0m
+  [36m3[0m  [36m[0m
+  [33m4[0m  [1m(defn )[0m
+  [0m [0m  [33m^--- Wrong number of args (0) passed to: core/defn--43044[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.421 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.492 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.434 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs  ----[0m
+
+  [1mNo such namespace: cljsjs., could not locate cljsjs/.cljs, cljsjs/.cljc, or Closure namespace "cljsjs." [0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.408 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs  ----[0m
+
+  [1mNo such namespace: cljsjs.react-bootstrap, could not locate cljsjs/react_bootstrap.cljs, cljsjs/react_bootstrap.cljc, or Closure namespace "cljsjs.react-bootstrap" [0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.791 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.255 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/simple_calculator/components/react_bootstrap.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.482 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/react_bootstrap.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.084 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.069 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.063 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.082 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.086 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.085 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.066 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.079 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.052 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.061 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.058 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.05 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.11 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.07 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.055 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.061 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.06 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.117 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.064 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.057 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.066 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.061 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.053 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.101 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.071 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.086 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.076 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.091 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.062 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.07 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.073 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.061 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.072 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mOnly :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Only :refer-clojure, :require, :require-macros, :use, :use-macros, and :import libspecs supported at line 1 src/cljs/simple_calculator/components/input.cljs[0m
+  [36m2[0m  [36m  ())[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.069 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:1  column:1  ----[0m
+
+  [1mDon't know how to create ISeq from: clojure.lang.Keyword[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components.input[0m
+  [0m [0m  [33m^--- Don't know how to create ISeq from: clojure.lang.Keyword[0m
+  [36m2[0m  [36m  (:require [reagent.core :as r :refer [atom]][0m
+  [36m3[0m  [36m            [simple-calculator.components.react-bootstrap :refer :all]))[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.617 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.539 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.456 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.364 seconds.[0m
+[36m----  Could not Read  src/cljs/simple_calculator/components/input.cljs   line:6  column:30  ----[0m
+
+  [1mMap literal must contain an even number of forms[0m
+
+  [36m5[0m  [36m(defn input [][0m
+  [33m6[0m  [1m  [c/FormGroup {:control-id }])[0m
+  [0m [0m  [33m                             ^--- Map literal must contain an even number of forms[0m
+
+[36m----  Reader Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.428 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.515 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.439 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.363 seconds.[0m
+[36m----  Could not Read  src/cljs/simple_calculator/components/input.cljs   line:9  column:7  ----[0m
+
+  [1mInvalid token: :[0m
+
+  [36m7[0m  [36m{:control-id "input"}[0m
+  [36m8[0m  [36m[c/FormControl[0m
+  [33m9[0m  [1m {:}]])[0m
+  [0m [0m  [33m   ^--- Invalid token: :[0m
+
+[36m----  Reader Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.429 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.524 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.491 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.685 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/react_bootstrap.js
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 10.303 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/simple_calculator/core.js
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.669 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.545 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components/input.cljs   line:14  column:9  ----[0m
+
+  [1mUnknown dot form of (. nil c/FormControl nil) with classification [:cljs.analyzer/error :cljs.analyzer/symbol ()][0m
+
+  [36m12[0m  [36m  :value @state[0m
+  [36m13[0m  [36m  :on-change #(reset! state (-> % .-target .-value))}][0m
+  [33m14[0m  [1m[(.c/FormControl)]])))[0m
+  [0m  [0m  [33m ^--- Unknown dot form of (. nil c/FormControl nil) with classification [:cljs.analyzer/error :cljs.analyzer/symbol ()][0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.513 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.508 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/react_bootstrap.js
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.474 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.583 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/react_bootstrap.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.998 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/react_bootstrap.js
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.532 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.756 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.279 seconds.[0m
+[36m----  Could not Read  src/cljs/simple_calculator/components/input.cljs   line:10  column:19  ----[0m
+
+  [1mMap literal must contain an even number of forms[0m
+
+  [36m 8[0m  [36m[c/FormGroup[0m
+  [36m 9[0m  [36m {:control-id "input"[0m
+  [33m10[0m  [1m  :bs-size }[0m
+  [0m  [0m  [33m            ^--- Map literal must contain an even number of forms[0m
+  [36m11[0m  [36m [c/FormControl[0m
+  [36m12[0m  [36m  {:type "text"[0m
+  [36m13[0m  [36m   :value @state[0m
+
+[36m----  Reader Error : Please see src/cljs/simple_calculator/components/input.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.519 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.711 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.499 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.485 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.511 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.47 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.449 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.911 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.026 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/react_bootstrap.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.719 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.478 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.547 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.39 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components/input.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.602 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/core.cljs  ----[0m
+
+  [1mNo such namespace: simple-calculator.components.components, could not locate simple_calculator/components/components.cljs, simple_calculator/components/components.cljc, or Closure namespace "simple-calculator.components.components" [0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.767 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/simple_calculator/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.345 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/core.cljs   line:40  column:3  ----[0m
+
+  [1mWrong number of args (0) passed to: core/let[0m
+
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  (let)[0m
+  [0m  [0m  [33m  ^--- Wrong number of args (0) passed to: core/let[0m
+  [36m41[0m  [36m  [input])[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.671 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/core.js
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.879 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.555 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:21  column:7  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.components/past-inputs[0m
+
+  [36m17[0m  [36m(let [state (atom "")[0m
+  [36m18[0m  [36m      inputs (atom [])[0m
+  [36m19[0m  [36m      n (atom 0)][0m
+  [36m20[0m  [36m  [:div[0m
+  [33m21[0m  [1m   [past-inputs inputs][0m
+  [0m  [0m  [33m    ^--- Use of undeclared Var simple-calculator.components/past-inputs[0m
+  [36m22[0m  [36m   [input state n]]))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.595 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.668 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:19  column:22  ----[0m
+
+  [1mWrong number of args (0) passed to reagent.core/atom[0m
+
+  [36m16[0m  [36m; past-inputs: [{:input s/Str :preview s/Str :result s/Str}][0m
+  [36m17[0m  [36m(defn main [][0m
+  [36m18[0m  [36m  (let [state (atom "")[0m
+  [33m19[0m  [1m              inputs (atom  )[0m
+  [0m  [0m  [33m                     ^--- Wrong number of args (0) passed to reagent.core/atom[0m
+  [36m20[0m  [36m        n (atom 0)][0m
+  [36m21[0m  [36m    [:div[0m
+  [36m22[0m  [36m     [input state n][0m
+  [36m23[0m  [36m     [past-inputs inputs]]))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.678 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:19  column:16  ----[0m
+
+  [1mWrong number of args (0) passed to reagent.core/atom[0m
+
+  [36m16[0m  [36m; past-inputs: [{:input s/Str :preview s/Str :result s/Str}][0m
+  [36m17[0m  [36m(defn main [][0m
+  [36m18[0m  [36m  (let [state (atom "")[0m
+  [33m19[0m  [1m        inputs (atom  )[0m
+  [0m  [0m  [33m               ^--- Wrong number of args (0) passed to reagent.core/atom[0m
+  [36m20[0m  [36m        n (atom 0)][0m
+  [36m21[0m  [36m    [:div[0m
+  [36m22[0m  [36m     [input state n][0m
+  [36m23[0m  [36m     [past-inputs inputs]]))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.583 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.62 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.899 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.681 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.556 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.629 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.097 seconds.[0m
+[36m----  Could not Analyze  src/cljs/simple_calculator/components.cljs   line:1  column:1  ----[0m
+
+  [1mDon't know how to create ISeq from: clojure.lang.Keyword[0m
+
+  [33m1[0m  [1m(ns simple-calculator.components[0m
+  [0m [0m  [33m^--- Don't know how to create ISeq from: clojure.lang.Keyword[0m
+  [36m2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m3[0m  [36m            [simple-calculator.components.react-bootstrap :refer :all]))[0m
+
+[36m----  Analysis Error : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.62 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.416 seconds.[0m
+[36m----  Could not Read  src/cljs/simple_calculator/components.cljs   line:24  column:10  ----[0m
+
+  [1mInvalid token: c/[0m
+
+  [36m22[0m  [36m[c/Grid[0m
+  [36m23[0m  [36m [c/Row[0m
+  [33m24[0m  [1m  [c/[input state n]]][0m
+  [0m  [0m  [33m     ^--- Invalid token: c/[0m
+  [36m25[0m  [36m [past-inputs inputs]]))[0m
+
+[36m----  Reader Error : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.509 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.368 seconds.[0m
+[36m----  Could not Read  src/cljs/simple_calculator/components.cljs   line:25  column:10  ----[0m
+
+  [1mInvalid token: :[0m
+
+  [36m23[0m  [36m[c/Row[0m
+  [36m24[0m  [36m [c/Col[0m
+  [33m25[0m  [1m  {:[input state n]}]][0m
+  [0m  [0m  [33m    ^--- Invalid token: :[0m
+  [36m26[0m  [36m[past-inputs inputs]]))[0m
+
+[36m----  Reader Error : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.32 seconds.[0m
+[36m----  Could not Read  src/cljs/simple_calculator/components.cljs   line:25  column:30  ----[0m
+
+  [1mMap literal must contain an even number of forms[0m
+
+  [36m23[0m  [36m[c/Row[0m
+  [36m24[0m  [36m [c/Col[0m
+  [33m25[0m  [1m  {:xs 6[input state n]}]][0m
+  [0m  [0m  [33m                        ^--- Map literal must contain an even number of forms[0m
+  [36m26[0m  [36m[past-inputs inputs]]))[0m
+
+[36m----  Reader Error : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.312 seconds.[0m
+[36m----  Could not Read  src/cljs/simple_calculator/components.cljs   line:25  column:16  ----[0m
+
+  [1mInvalid token: :[0m
+
+  [36m23[0m  [36m[c/Row[0m
+  [36m24[0m  [36m [c/Col {:xs 6} [input state n]][0m
+  [33m25[0m  [1m [c/Col {:}]][0m
+  [0m  [0m  [33m          ^--- Invalid token: :[0m
+  [36m26[0m  [36m[past-inputs inputs]]))[0m
+
+[36m----  Reader Error : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/components.cljs   line:5  column:1  ----[0m
+
+  [1mNamespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+
+  [36m 1[0m  [36m(ns simple-calculator.components[0m
+  [36m 2[0m  [36m  (:require [reagent.core :refer [atom]][0m
+  [36m 3[0m  [36m            [simple-calculator.components.react-bootstrap :as c]))[0m
+  [36m 4[0m  [36m[0m
+  [33m 5[0m  [1m(defn input [state n][0m
+  [0m  [0m  [33m^--- Namespace simple-calculator.components.input clashes with var simple-calculator.components/input[0m
+  [36m 6[0m  [36m  [c/FormGroup[0m
+  [36m 7[0m  [36m   {:control-id (str @n)}[0m
+  [36m 8[0m  [36m   [c/FormControl[0m
+  [36m 9[0m  [36m    {:type      "text"[0m
+  [36m10[0m  [36m     :value     @state[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/components.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.547 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 4.642 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 3.894 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.645 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/simple_calculator/core.cljs   line:40  column:4  ----[0m
+
+  [1mUse of undeclared Var simple-calculator.core/main[0m
+
+  [36m36[0m  [36m    [:div.col-md-12[0m
+  [36m37[0m  [36m     "this is the story of simple-calculator... work in progress"]]])[0m
+  [36m38[0m  [36m[0m
+  [36m39[0m  [36m(defn home-page [][0m
+  [33m40[0m  [1m  [main])[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var simple-calculator.core/main[0m
+  [36m41[0m  [36m[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m(def pages[0m
+  [36m44[0m  [36m  {:home #'home-page[0m
+  [36m45[0m  [36m   :about #'about-page})[0m
+
+[36m----  Compiler Warning : Please see src/cljs/simple_calculator/core.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 3.023 seconds.[0m
+notifying browser that file changed:  out/simple_calculator/components.js
