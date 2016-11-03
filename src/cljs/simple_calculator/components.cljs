@@ -1,17 +1,35 @@
 (ns simple-calculator.components
-  (:require [reagent.core :refer [atom]]
+  (:require [reagent.core :as r :refer [atom]]
             [simple-calculator.components.react-bootstrap :as c]))
 
-(defn input [state n]
-  [c/FormGroup
-   {:control-id (str @n)}
-   [c/FormControl
-    {:type      "text"
-     :value     @state
-     :on-change #(reset! state (-> % .-target .-value))}]])
+(defn- update-preview [jax state]
+  (when (nil? @jax) (reset! jax (get (js/MathJax.Hub.getAllJax "preview") 0)))
+  (js/MathJax.Hub.Queue (to-array ["Text" @jax @state])))
 
-(defn preview [state]
-  [:div])
+(defn input [state]
+  (let [jax (atom nil)]
+    (fn []
+      [c/FormGroup
+       {:control-id "input"}
+       [c/FormControl
+        {:type      "text"
+         :value     @state
+         :on-change #(do
+                      (reset! state (-> % .-target .-value))
+                      (update-preview jax state))}]])))
+
+
+; Could have used an invisible div to trigger re-render
+(defn preview []
+  [:div {:id "preview"} "``"])
+
+(defn input-and-preview []
+  (let [state (atom "")]
+    (fn []
+      [c/Row
+       [c/Col {:xs 6} [input state]]
+       [c/Col {:xs 6} [preview]]])))
+;[c/Col {:xs 6} [preview state]]])))
 
 (defn past-inputs [inputs]
   (for [input inputs]
@@ -19,11 +37,7 @@
 
 ; inputs: '({:input s/Str :preview s/Str :result s/Str})
 (defn main []
-  (let [state (atom "")
-        inputs (atom ())
-        n (atom 0)]
+  (let [inputs (atom ())]
     [c/Grid
-     [c/Row
-      [c/Col {:xs 6} [input state n]]
-      [c/Col {:xs 6} "Preview"]]
-     [past-inputs inputs]]))
+     [input-and-preview]]))
+;[past-inputs inputs]]))

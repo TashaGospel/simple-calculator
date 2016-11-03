@@ -7,7 +7,7 @@
             [markdown.core :refer [md->html]]
             [simple-calculator.ajax :refer [load-interceptors!]]
             [ajax.core :refer [GET POST]]
-            [simple-calculator.components :refer [input]])
+            [simple-calculator.components :refer [main]])
   (:import goog.History))
 
 (defn nav-link [uri title page collapsed?]
@@ -38,7 +38,6 @@
 
 (defn home-page []
   [main])
-
 
 (def pages
   {:home #'home-page

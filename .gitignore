@@ -8,6 +8,6 @@ pom.xml
 profiles.clj
 /.env
 .nrepl-port
-/log
+*.log
 .idea
 *.iml

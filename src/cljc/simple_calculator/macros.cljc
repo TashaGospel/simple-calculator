@@ -1,5 +1,5 @@
 (ns simple-calculator.macros
-  #?(:cljs (:require [reagent.core :as r])))
+  (:require [reagent.core :as r]))
 
 (defmacro adapt-components [& components]
   "Adapt react-bootstrap components into Reagent ones"
