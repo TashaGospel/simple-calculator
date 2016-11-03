@@ -61,7 +61,7 @@
                {:source-paths ["src/cljc" "src/cljs" "env/prod/cljs"]
                 :compiler
                 {:output-to "target/cljsbuild/public/js/app.js"
-                 :externs ["react/externs/react.js"]
+                 :externs ["resources/public/js/mathjax.js"]
                  :optimizations :advanced
                  :pretty-print false
                  :closure-warnings
