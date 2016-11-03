@@ -18,18 +18,18 @@
                       (reset! state (-> % .-target .-value))
                       (update-preview jax state))}]])))
 
-
-; Could have used an invisible div to trigger re-render
 (defn preview []
   [:div {:id "preview"} "``"])
 
 (defn input-and-preview []
-  (let [state (atom "")]
-    (fn []
-      [c/Row
-       [c/Col {:xs 6} [input state]]
-       [c/Col {:xs 6} [preview]]])))
-;[c/Col {:xs 6} [preview state]]])))
+  (do
+    (js/MathJax.Hub.Config (js-obj "messageStyle" "none"))
+    (set! js/MathJax.Hub.processSectionDelay 0)
+    (let [state (atom "")]
+      (fn []
+        [c/Row
+         [c/Col {:xs 6} [input state]]
+         [c/Col {:xs 6} [preview]]]))))
 
 (defn past-inputs [inputs]
   (for [input inputs]
@@ -40,4 +40,4 @@
   (let [inputs (atom ())]
     [c/Grid
      [input-and-preview]]))
-;[past-inputs inputs]]))
+     ;[past-inputs inputs]]))

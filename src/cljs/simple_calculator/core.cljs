@@ -37,7 +37,9 @@
      "this is the story of simple-calculator... work in progress"]]])
 
 (defn home-page []
-  [main])
+  [:div
+   [main]
+   [:div {:id "test"} "test here"]])
 
 (def pages
   {:home #'home-page
