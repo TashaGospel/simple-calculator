@@ -2,11 +2,21 @@
   (:require [reagent.core :as r :refer [atom]]
             [simple-calculator.components.react-bootstrap :as c]))
 
-(defn- update-preview! [jax state]
-  (when (nil? @jax) (reset! jax (get (js/MathJax.Hub.getAllJax "preview") 0)))
-  (js/MathJax.Hub.Queue (to-array ["Text" @jax @state])))
+(def preview-id "preview")
 
-(defn submit! [state inputs])
+(defn- update-preview! [jax state]
+  (when (nil? @jax) (reset! jax (get (js/MathJax.Hub.getAllJax preview-id) 0)))
+  (js/MathJax.Hub.Queue (array "Text" @jax @state)))
+
+(defn calculate [state]
+  "Mock result")
+
+(defn submit! [state inputs]
+  (let [html (.-innerHTML (js/document.getElementById preview-id))]
+    (swap! inputs conj {:input @state
+                        :preview html
+                        :result (calculate @state)})
+    (reset! state nil)))
 
 (defn input [state inputs]
   (let [jax (atom nil)]
@@ -22,7 +32,7 @@
          :on-key-down #(if (= 13 (.-keyCode %)) (submit! state inputs))}]])))
 
 (defn preview []
-  [:div {:id "preview"} "``"])
+  [:div {:id preview-id} "``"])
 
 (defn set-up-mathjax! []
   (js/MathJax.Hub.Config (js-obj "messageStyle" "none"))
@@ -38,13 +48,17 @@
          [c/Col {:xs 6} [preview]]]))))
 
 (defn past-inputs [inputs]
-  (for [input inputs]
-    [c/Row
-     [c/Col {:xs 4}]]))
+  [:div
+   (for [{:keys [input preview result]} @inputs]
+     ^{:key (rand-int js/Number.MAX_VALUE)}
+     [c/Row
+      [c/Col {:xs 4} input]
+      [c/Col {:xs 4} [:div {:dangerouslySetInnerHTML {:__html preview}}]]
+      [c/Col {:xs 4} result]])])
 
 ; inputs: '({:input s/Str :preview s/Str :result s/Str})
 (defn main []
   (let [inputs (atom ())]
     [c/Grid
-     [input-and-preview inputs]]))
-;[past-inputs inputs]]))
+     [input-and-preview inputs]
+     [past-inputs inputs]]))
