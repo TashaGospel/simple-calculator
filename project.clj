@@ -29,7 +29,7 @@
                  [secretary "1.2.3"]
                  [selmer "1.10.0"]
                  [cljsjs/react-bootstrap "0.30.2-0"]
-                 [local/CalculatorSystem "1.0.0-SNAPSHOT"]]
+                 [local/CalculatorSystem "1.0.0"]]
 
   :min-lein-version "2.0.0"
 
