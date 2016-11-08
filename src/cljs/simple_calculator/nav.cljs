@@ -4,7 +4,8 @@
 
 (defn navbar []
   [c/Navbar
-   {:collapse-on-select true}
+   {:inverse true}
+    ;:collapse-on-select true} ; Bug with react-bootstrap?
    [c/Navbar-Header
     [c/Navbar-Brand
      [:a {:href "#/"} "Simple Calculator"]]
@@ -18,5 +19,3 @@
      [c/NavItem
       {:event-key :about :href "#/about"}
       "About"]]]])
-
-

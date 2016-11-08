@@ -63,9 +63,14 @@
      ^{:key (rand-int js/Number.MAX_VALUE)}
      [c/Row
       [:hr]
-      [c/Col {:class "text-center"} input]
-      [c/Col {:class "text-center"} [:div {:dangerouslySetInnerHTML {:__html preview}}]]
-      [c/Col {:class "text-center"} result]])])
+      [c/Col
+       {:class "text-center"
+        :xs 6}
+       [:div {:dangerouslySetInnerHTML {:__html preview}}]]
+      [c/Col
+       {:class "text-center"
+        :xs 6}
+       result]])])
 
 ; inputs: '({:input s/Str :preview s/Str :result s/Str})
 ; TODO: Add proper styling
