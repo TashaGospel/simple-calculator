@@ -8,14 +8,14 @@
   (when (nil? @jax) (reset! jax (get (js/MathJax.Hub.getAllJax preview-id) 0)))
   (js/MathJax.Hub.Queue (array "Text" @jax @state)))
 
-(defn calculate [state]
-  "Mock result")
+(defn calculate [string]
+  string)
 
 (defn submit! [state inputs]
   (let [html (.-innerHTML (js/document.getElementById preview-id))]
-    (swap! inputs conj {:input @state
+    (swap! inputs conj {:input   @state
                         :preview html
-                        :result (calculate @state)})
+                        :result  (calculate @state)})
     (reset! state "")))
 
 (defn input [state inputs]
@@ -24,17 +24,18 @@
       [c/FormGroup
        {:control-id "input"}
        [(r/create-class
-         {:reagent-render
-          (fn []
-            [:input.form-control
-             {:type        :text
-              :value       @state
-              :on-change   #(do
-                             (reset! state (-> % .-target .-value)))
-              :on-key-down #(do
-                             (when (= 13 (.-keyCode %))
-                               (submit! state inputs)))}])
-          :component-did-update #(update-preview! jax state)})]])))
+          {:reagent-render
+           (fn []
+             [:input.form-control
+              {:type        :text
+               :value       @state
+               :on-change   #(do
+                              (reset! state (-> % .-target .-value)))
+               :on-key-down #(do
+                              (when (= 13 (.-keyCode %))
+                                (submit! state inputs)))}])
+           :component-did-update
+           #(update-preview! jax state)})]])))
 
 (defn preview []
   [(r/create-class
@@ -48,34 +49,41 @@
   (js/MathJax.Hub.Config (js-obj "messageStyle" "none"))
   (set! js/MathJax.Hub.processSectionDelay 0))
 
-(defn input-and-preview [inputs]
+(defn input-and-preview [inputs state]
   (do
     (set-up-mathjax!)
-    (let [state (atom "")]
-      (fn []
-        [c/Row
-         [c/Col {:xs 6} [input state inputs]]
-         [c/Col {:xs 6} [preview]]]))))
+    (fn []
+      [c/Row
+       [c/Col {:xs 6} [input state inputs]]
+       [c/Col {:xs 6} [preview]]])))
 
-(defn past-inputs [inputs]
+(defn past-inputs [inputs state]
   [:div
    (for [{:keys [input preview result]} @inputs]
      ^{:key (rand-int js/Number.MAX_VALUE)}
      [c/Row
+      {:class "text-center"}
       [:hr]
       [c/Col
-       {:class "text-center"
-        :xs 6}
-       [:div {:dangerouslySetInnerHTML {:__html preview}}]]
+       {:xs 6}
+       [:div
+        {:dangerouslySetInnerHTML {:__html preview}
+         :style                   {"overflow-x" "auto"
+                                   "overflow-y" "hidden"}}]
+       [:br]
+       [c/Button {:on-click #(reset! state input)} "Copy"]]
       [c/Col
-       {:class "text-center"
-        :xs 6}
-       result]])])
+       {:xs 6}
+       [:div
+        {:style {:overflow-x "auto"
+                 :overflow-y "hidden"}}
+        result]]])])
 
 ; inputs: '({:input s/Str :preview s/Str :result s/Str})
 ; TODO: Add proper styling
 (defn main []
-  (let [inputs (atom ())]
+  (let [inputs (atom ())
+        state (atom "")]
     [c/Grid
-     [input-and-preview inputs]
-     [past-inputs inputs]]))
+     [input-and-preview inputs state]
+     [past-inputs inputs state]]))
