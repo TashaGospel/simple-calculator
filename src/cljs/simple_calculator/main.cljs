@@ -11,9 +11,9 @@
     (js/MathJax.Hub.Queue (array "Text" jax string))))
 
 (defn calculate [string callback]
-  (ajax/GET "/api/calculate"
-            {:params  {:string string}
-             :handler callback}))
+  (ajax/POST "/api/calculate"
+             {:params  {:string string}
+              :handler callback}))
 
 (defn render-math [string callback]
   ; callback cannot be #(), must be (fn [])

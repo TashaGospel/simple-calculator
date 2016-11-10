@@ -13,8 +13,8 @@
   (context "/api" []
     :tags ["thingie"]
 
-    (GET "/calculate" []
+    (POST "/calculate" []
       :return       s/Str
-      :query-params [string :- s/Str]
+      :body-params [string :- s/Str]
       :summary "Calculate and simplify the expression"
       (ok (str string "*1")))))
