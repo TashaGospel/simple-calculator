@@ -18,7 +18,6 @@
 (defn render-math [string callback]
   ; callback cannot be #(), must be (fn [])
   (let [jax (get (js/MathJax.Hub.getAllJax render-area-id) 0)]
-    (js/console.log jax)
     (js/MathJax.Hub.Queue (array "Text" jax string))
     (js/MathJax.Hub.Queue (fn [] (callback
                                    (.-innerHTML
@@ -32,15 +31,19 @@
                       :result-rendered result-rendered}))
 
 (defn submit! [state inputs]
-  (let [input-rendered (.-innerHTML (js/document.getElementById preview-id))
-        string @state]
-    (calculate string
-               (fn [result]
-                 (render-math result
-                              (fn [result-rendered]
-                                (add-input inputs
-                                           string input-rendered
-                                           result result-rendered)))))
+  (let [string @state]
+    (render-math
+      string
+      (fn [input-rendered]
+        (calculate
+          string
+          (fn [result]
+            (render-math
+              result
+              (fn [result-rendered]
+                (add-input inputs
+                           string input-rendered
+                           result result-rendered)))))))
     (reset! state "")))
 
 (defn input [state inputs]
@@ -56,7 +59,8 @@
              :on-change   #(do
                             (reset! state (-> % .-target .-value)))
              :on-key-down #(do
-                            (when (= 13 (.-keyCode %))
+                            (when (and (= 13 (.-keyCode %))
+                                       (not= @state ""))
                               (submit! state inputs)))}])
          :component-did-update
          #(update-preview! @state)})]]))
