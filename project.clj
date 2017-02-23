@@ -5,29 +5,29 @@
 
   :dependencies [[bouncer "1.0.0"]
                  [cljs-ajax "0.5.8"]
-                 [compojure "1.5.1"]
-                 [cprop "0.1.9"]
-                 [luminus-immutant "0.2.2"]
+                 [compojure "1.5.2"]
+                 [cprop "0.1.10"]
+                 [luminus-immutant "0.2.3"]
                  [luminus-nrepl "0.1.4"]
-                 [markdown-clj "0.9.90"]
-                 [metosin/compojure-api "1.1.9"]
-                 [metosin/ring-http-response "0.8.0"]
-                 [mount "0.1.10"]
+                 [markdown-clj "0.9.95"]
+                 [metosin/compojure-api "1.1.10"]
+                 [metosin/ring-http-response "0.8.2"]
+                 [mount "0.1.11"]
                  [org.clojure/clojure "1.8.0"]
-                 [org.clojure/clojurescript "1.9.293" :scope "provided"]
+                 [org.clojure/clojurescript "1.9.473" :scope "provided"]
                  [org.clojure/tools.cli "0.3.5"]
                  [org.clojure/tools.logging "0.3.1"]
-                 [org.webjars.bower/tether "1.3.7"]
-                 [org.webjars/font-awesome "4.6.3"]
+                 [org.webjars.bower/tether "1.4.0"]
+                 [org.webjars/font-awesome "4.7.0"]
                  [org.webjars/webjars-locator-jboss-vfs "0.1.0"]
                  [reagent "0.6.0"]
                  [reagent-utils "0.2.0"]
-                 [ring-middleware-format "0.7.0"]
+                 [ring-middleware-format "0.7.2"]
                  [ring-webjars "0.1.1"]
-                 [ring/ring-defaults "0.2.1"]
+                 [ring/ring-defaults "0.2.3"]
                  [secretary "1.2.3"]
-                 [selmer "1.10.0"]
-                 [cljsjs/react-bootstrap "0.30.6-0"]
+                 [selmer "1.10.6"]
+                 [cljsjs/react-bootstrap "0.30.7-0"]
                  [local/CalculatorSystem "1.0.0"]]
 
   :min-lein-version "2.0.0"
@@ -75,18 +75,18 @@
    :dev           [:project/dev :profiles/dev]
    :test          [:project/dev :project/test :profiles/test]
 
-   :project/dev  {:dependencies [[prone "1.1.2"]
+   :project/dev  {:dependencies [[prone "1.1.4"]
                                  [ring/ring-mock "0.3.0"]
-                                 [ring/ring-devel "1.5.0"]
+                                 [ring/ring-devel "1.5.1"]
                                  [pjstadig/humane-test-output "0.8.1"]
-                                 [binaryage/devtools "0.8.2"]
+                                 [binaryage/devtools "0.9.1"]
                                  [com.cemerick/piggieback "0.2.2-SNAPSHOT"]
+                                 [org.clojure/tools.nrepl "0.2.10"]
                                  [doo "0.1.7"]
-                                 [figwheel-sidecar "0.5.8"]]
+                                 [figwheel-sidecar "0.5.9"]]
                   :plugins      [[com.jakemccrary/lein-test-refresh "0.14.0"]
                                  [lein-doo "0.1.7"]
-                                 [lein-figwheel "0.5.8"]
-                                 [org.clojure/clojurescript "1.9.293"]]
+                                 [lein-figwheel "0.5.9"]]
                   :cljsbuild
                   {:builds
                    {:app
@@ -99,8 +99,6 @@
                       :source-map true
                       :optimizations :none
                       :pretty-print true}}}}
-                  
-                  
                   
                   :doo {:build "test"}
                   :source-paths ["env/dev/clj" "test/clj"]
