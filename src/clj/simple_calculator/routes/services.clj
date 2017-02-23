@@ -1,7 +1,8 @@
 (ns simple-calculator.routes.services
   (:require [ring.util.http-response :refer :all]
             [compojure.api.sweet :refer :all]
-            [schema.core :as s]))
+            [schema.core :as s]
+            [simple-calculator.calculator :refer [calculate]]))
 
 (defapi service-routes
   {:swagger {:ui "/swagger-ui"
@@ -17,4 +18,6 @@
       :return       s/Str
       :body-params [string :- s/Str]
       :summary "Calculate and simplify the expression"
-      (ok (str string "*1")))))
+      (ok (try (calculate string)
+               (catch Exception e "Math operation unsupported"))))))
+
