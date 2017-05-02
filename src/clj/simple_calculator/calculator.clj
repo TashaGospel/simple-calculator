@@ -10,7 +10,11 @@
 (defn- get-type [character]
   (condp get character
     numbers :number
-    (set (keys operand-map)) :operand))
+    (set (keys operand-map)) :operand
+    #{"("} :bracket
+    #{")"} :expr-end
+    #{"^"} :power
+    #{"x"} :variable))
 
 (defn calculate [string]
   (let [calculator (Calculator.)]
@@ -18,7 +22,10 @@
       (let [character (str character)]
         (case (get-type character)
           :number (.inputNumber calculator (Integer/parseInt character))
-          :operand (.inputSymbol calculator (operand-map character)))))
+          :operand (.inputSymbol calculator (operand-map character))
+          :bracket (.inputBrackets calculator)
+          :variable (.inputX calculator)
+          :expr-end (.inputEnd calculator))))
     (.simplify calculator)
     (str calculator)))
 
