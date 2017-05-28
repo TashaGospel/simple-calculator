@@ -3,30 +3,32 @@
   :description "FIXME: write description"
   :url "http://example.com/FIXME"
 
-  :dependencies [[bouncer "1.0.0"]
-                 [cljs-ajax "0.5.8"]
-                 [compojure "1.5.2"]
+  :dependencies [[bouncer "1.0.1"]
+                 [cljs-ajax "0.6.0"]
+                 [compojure "1.6.0"]
                  [cprop "0.1.10"]
                  [luminus-immutant "0.2.3"]
                  [luminus-nrepl "0.1.4"]
-                 [markdown-clj "0.9.95"]
+                 [markdown-clj "0.9.99"]
                  [metosin/compojure-api "1.1.10"]
-                 [metosin/ring-http-response "0.8.2"]
+                 [metosin/ring-http-response "0.9.0"]
                  [mount "0.1.11"]
+                 [ring/ring-core "1.6.0"]
                  [org.clojure/clojure "1.8.0"]
-                 [org.clojure/clojurescript "1.9.473" :scope "provided"]
+                 [org.clojure/clojurescript "1.9.562" :scope "provided"]
                  [org.clojure/tools.cli "0.3.5"]
                  [org.clojure/tools.logging "0.3.1"]
                  [org.webjars.bower/tether "1.4.0"]
                  [org.webjars/font-awesome "4.7.0"]
                  [org.webjars/webjars-locator-jboss-vfs "0.1.0"]
-                 [reagent "0.6.0"]
-                 [reagent-utils "0.2.0"]
+                 [reagent "0.6.2" :exclusions [cljsjs/react cljsjs/react-dom]]
+                 [reagent-utils "0.2.1"]
                  [ring-middleware-format "0.7.2"]
-                 [ring-webjars "0.1.1"]
-                 [ring/ring-defaults "0.2.3"]
+                 [ring-webjars "0.2.0"]
+                 [ring/ring-defaults "0.3.0"]
                  [secretary "1.2.3"]
-                 [selmer "1.10.6"]
+                 [selmer "1.10.7"]
+                 [cljs-react-material-ui "0.2.44"]
                  [cljsjs/react-bootstrap "0.30.7-0"]
                  [local/CalculatorSystem "0.1.0"]]
 
@@ -39,8 +41,8 @@
   :target-path "target/%s/"
   :main simple-calculator.core
 
-  :plugins [[lein-cprop "1.0.1"]
-            [lein-cljsbuild "1.1.4"]
+  :plugins [[lein-cprop "1.0.3"]
+            [lein-cljsbuild "1.1.6"]
             [lein-immutant "2.1.0"]]
   :clean-targets ^{:protect false}
   [:target-path [:cljsbuild :builds :app :compiler :output-dir] [:cljsbuild :builds :app :compiler :output-to]]
@@ -77,16 +79,16 @@
 
    :project/dev  {:dependencies [[prone "1.1.4"]
                                  [ring/ring-mock "0.3.0"]
-                                 [ring/ring-devel "1.5.1"]
-                                 [pjstadig/humane-test-output "0.8.1"]
-                                 [binaryage/devtools "0.9.1"]
+                                 [ring/ring-devel "1.6.1"]
+                                 [pjstadig/humane-test-output "0.8.2"]
+                                 [binaryage/devtools "0.9.4"]
                                  [com.cemerick/piggieback "0.2.2-SNAPSHOT"]
-                                 [org.clojure/tools.nrepl "0.2.10"]
+                                 [org.clojure/tools.nrepl "0.2.13"]
                                  [doo "0.1.7"]
-                                 [figwheel-sidecar "0.5.9"]]
-                  :plugins      [[com.jakemccrary/lein-test-refresh "0.14.0"]
+                                 [figwheel-sidecar "0.5.10"]]
+                  :plugins      [[com.jakemccrary/lein-test-refresh "0.20.0"]
                                  [lein-doo "0.1.7"]
-                                 [lein-figwheel "0.5.9"]]
+                                 [lein-figwheel "0.5.10"]]
                   :cljsbuild
                   {:builds
                    {:app

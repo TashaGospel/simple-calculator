@@ -1,6 +1,7 @@
 (ns simple-calculator.core
   (:require [reagent.core :as r]
             [reagent.session :as session]
+            [cljsjs.material-ui]
             [secretary.core :as secretary :include-macros true]
             [goog.events :as events]
             [goog.history.EventType :as HistoryEventType]
@@ -8,7 +9,7 @@
             [simple-calculator.ajax :refer [load-interceptors!]]
             [ajax.core :refer [GET POST]]
             [simple-calculator.main :refer [main]]
-            [simple-calculator.nav :refer [navbar]])
+            [simple-calculator.navbar :refer [navbar]])
   (:import goog.History))
 
 (defn home-page []

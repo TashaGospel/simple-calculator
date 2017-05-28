@@ -1,6 +1,9 @@
-(ns simple-calculator.nav
+(ns simple-calculator.navbar
   (:require [simple-calculator.bootstrap-components :as c]
-            [reagent.session :as session]))
+            [reagent.session :as session]
+            [cljs-react-material-ui.core :refer [get-mui-theme color]]
+            [cljs-react-material-ui.reagent :as ui]
+            [cljs-react-material-ui.icons :as ic]))
 
 (defn navbar []
   [c/Navbar
@@ -19,3 +22,9 @@
      [c/NavItem
       {:event-key :about :href "#/about"}
       "About"]]]])
+
+;(defn navbar []
+;  [ui/mui-theme-provider
+;   {:mui-theme (get-mui-theme)}
+;   [ui/app-bar
+;    {:title "Simple Calculator"}]])
