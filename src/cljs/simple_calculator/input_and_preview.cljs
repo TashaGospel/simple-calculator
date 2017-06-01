@@ -1,6 +1,7 @@
 (ns simple-calculator.input-and-preview
   (:require [simple-calculator.bootstrap-components :as c]
             [reagent.core :as r]
+            [cljs-react-material-ui.reagent :as ui]
             [simple-calculator.util :as u]))
 
 (defn input [state inputs]
@@ -10,15 +11,15 @@
      [(r/create-class
         {:reagent-render
          (fn []
-           [:input.form-control
-            {:type        :text
+           [ui/text-field
+            {:hint-text "Type equation here"
              :value       @state
              :on-change   #(do
                              (reset! state (-> % .-target .-value)))
              :on-key-down #(do
                              (when (and (= 13 (.-keyCode %))
                                         (not= @state ""))
-                               (u/submit! state inputs)))}])
+                               (u/submit! @state inputs)))}])
          :component-did-update
          #(u/update-preview! @state)})]]))
 

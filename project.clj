@@ -30,6 +30,7 @@
                  [selmer "1.10.7"]
                  [cljs-react-material-ui "0.2.44"]
                  [cljsjs/react-bootstrap "0.30.7-0"]
+                 [org.clojure/core.async "0.3.443"]
                  [local/CalculatorSystem "0.1.0"]]
 
   :min-lein-version "2.0.0"

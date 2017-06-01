@@ -1,14 +1,14 @@
 (ns simple-calculator.past-inputs
   (:require [simple-calculator.bootstrap-components :as c]))
 
-(defn past-inputs [inputs state]
+(defn past-inputs-list [inputs state]
   [:div
-   (for [{:keys [input input-rendered result result-rendered]} @inputs]
+   (for [{:keys [string string-rendered result result-rendered]} @inputs]
      ^{:key (rand-int js/Number.MAX_VALUE)}
      [c/Row
       {:class "text-center"}
       [:hr]
-      (for [[s s-rendered] [[input input-rendered] [result result-rendered]]]
+      (for [[s s-rendered] [[string string-rendered] [result result-rendered]]]
         (let [id (str (rand-int js/Number.MAX_VALUE))]
           ^{:key id}
           [c/Col
