@@ -6,8 +6,9 @@
             [cljs-react-material-ui.reagent :as ui]
             [cljs-react-material-ui.icons :as ic]
             [simple-calculator.util :as u]
-            [simple-calculator.input-and-preview :refer [input-and-preview]]
-            [simple-calculator.past-inputs :refer [past-inputs-list]]))
+            [simple-calculator.preview :refer [preview]]
+            [simple-calculator.past-inputs :refer [past-inputs-list]]
+            [simple-calculator.input-wrapper :refer [input-wrapper]]))
 
 ; TODO: Add proper styling
 (defn main []
@@ -15,8 +16,10 @@
         state (atom "")]
     [ui/mui-theme-provider
      {:mui-theme (get-mui-theme)}
-     [c/Grid
-      [input-and-preview inputs state]
-      [past-inputs-list inputs state]]]))
+     [input-wrapper
+      inputs
+      [c/Grid
+       [preview inputs state]
+       [past-inputs-list inputs state]]]]))
 
 
