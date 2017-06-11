@@ -12,14 +12,16 @@
         {:reagent-render
          (fn []
            [ui/text-field
-            {:hint-text "Type equation here"
+            {:hint-text   "Type equation here"
              :value       @state
              :on-change   #(do
                              (reset! state (-> % .-target .-value)))
              :on-key-down #(do
-                             (when (and (= 13 (.-keyCode %))
-                                        (not= @state ""))
-                               (u/submit! @state inputs)))}])
+                             (let [string @state]
+                               (when (and (= 13 (.-keyCode %))
+                                          (not= string ""))
+                                 (u/submit! string inputs)))
+                             (reset! state ""))}])
          :component-did-update
          #(u/update-preview! @state)})]]))
 

@@ -25,10 +25,9 @@
       (let [input (a/<! in)]
         (ajax/POST "/api/calculate"
                    {:params  {:string (:string input)}
-                    :handler #(do
-                                ;(println (merge input {:result %}))
-                                (a/>! out (merge input {:result %}))
-                                (println "sent"))}))
+                    :handler #(go (a/>! out (merge input {:result %})))}))
+                              ; Callbacks are not called inside current go block,
+                              ; so must wrap in another go block
       (recur))
     out))
 
@@ -38,12 +37,13 @@
       (let [input (a/<! in)]
         (let [jax (get (js/MathJax.Hub.getAllJax render-area-id) 0)]
           (js/MathJax.Hub.Queue (array "Text" jax (get input in-key)))
-          (js/MathJax.Hub.Queue (fn [] (a/>!
-                                         out
-                                         (merge input
-                                                {out-key (.-innerHTML
-                                                           (js/document.getElementById
-                                                             render-area-id))}))))))
+          (js/MathJax.Hub.Queue (fn []
+                                  (go (a/>!
+                                        out
+                                        (merge input
+                                               {out-key (.-innerHTML
+                                                          (js/document.getElementById
+                                                            render-area-id))})))))))
       (recur))
     out))
 
