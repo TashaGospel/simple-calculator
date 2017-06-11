@@ -63,8 +63,10 @@
                {:source-paths ["src/cljc" "src/cljs" "env/prod/cljs"]
                 :compiler
                 {:output-to "target/cljsbuild/public/js/app.js"
-                 :externs ["resources/public/js/mathjax.js"]
+                 :externs ["resources/public/js/mathjax.js" "resources/public/js/InputSystem.js"]
                  :optimizations :advanced
+                 :language-in :es6
+                 :language-out :es5
                  :pretty-print false
                  :closure-warnings
                  {:externs-validation :off :non-standard-jsdoc :off}}}}}
