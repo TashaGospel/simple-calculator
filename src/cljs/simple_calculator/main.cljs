@@ -14,12 +14,16 @@
 (defn main []
   (let [inputs (atom ())
         state (atom "")]
-    [ui/mui-theme-provider
-     {:mui-theme (get-mui-theme)}
-     [input-wrapper
-      inputs
-      [c/Grid
-       [preview inputs state]
-       [past-inputs-list inputs state]]]]))
+    [:div
+     {:style {:display   "flex"
+              :flex-flow "column"
+              :height    "100vh"}}
+     [ui/mui-theme-provider
+      {:mui-theme (get-mui-theme)}
+      [input-wrapper
+       inputs
+       [c/Grid
+        [preview inputs state]
+        [past-inputs-list inputs state]]]]]))
 
 
