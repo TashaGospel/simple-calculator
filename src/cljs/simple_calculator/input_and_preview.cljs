@@ -2,7 +2,8 @@
   (:require [simple-calculator.bootstrap-components :as c]
             [reagent.core :as r]
             [cljs-react-material-ui.reagent :as ui]
-            [simple-calculator.util :as u]))
+            [simple-calculator.util :as u]
+            [simple-calculator.submission :as sub]))
 
 (defn input [state inputs]
   (fn []
@@ -21,7 +22,7 @@
                                (when (and (= 13 (.-keyCode %))
                                           (not= string ""))
                                  (reset! state "")
-                                 (u/submit! string inputs))))}])
+                                 (sub/submit! string inputs))))}])
          :component-did-update
          #(u/update-preview! @state)})]]))
 
