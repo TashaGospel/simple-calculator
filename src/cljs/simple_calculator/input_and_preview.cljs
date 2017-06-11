@@ -20,8 +20,8 @@
                              (let [string @state]
                                (when (and (= 13 (.-keyCode %))
                                           (not= string ""))
-                                 (u/submit! string inputs)))
-                             (reset! state ""))}])
+                                 (reset! state "")
+                                 (u/submit! string inputs))))}])
          :component-did-update
          #(u/update-preview! @state)})]]))
 
